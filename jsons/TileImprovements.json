@@ -1,0 +1,30 @@
+[	
+	{
+		"name": "Alm",
+		"uniqueTo": "Geneva Union",
+    	"replaces": "Terrace farm",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"turnsToBuild": 10,
+		"food": 1,
+		"production": 1,
+		"techRequired": "Redomestication",
+		"uniques": [
+			"Food source",
+			"Cannot be built on [Fissure] tiles",
+			"Cannot be built on [Bonus resource] tiles",
+			"Improves [Cattle] resource in this tile",
+			"Improves [Goats] resource in this tile",
+			"Improves [Hogs] resource in this tile",
+			"[-1 Food, -1 Production] <before discovering [Land Remediation]>",
+			"[+1 Food] <before discovering [Land Remediation]> <in tiles adjacent to [Mountain] tiles> <hidden from users>",
+			"[+1 Food] <before discovering [Land Remediation]> <with [2] to [6] neighboring [Mountain] tiles> <hidden from users>",
+			"[+1 Food] for each adjacent [Mountain] <after discovering [Land Remediation]> <hidden from users>",
+			"Comment [+1 [Food] for each adjacent Mountain, capped at +2 before discovering Land Remediation]"
+			"[+1 Food, -1 Gold] from [Fresh water] tiles",
+			"[+1 Food, +1 Production] <after discovering [Geo Engineering]>",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "T"
+	},
+//<before discovering [Land Remediation]> <after discovering [Land Remediation]>
+]

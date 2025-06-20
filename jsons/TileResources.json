@@ -1,0 +1,7 @@
+[	
+  	{
+		"name": "Friendship Cooldown",
+		"resourceType": "Luxury",
+    		"uniques": ["Cannot be traded"]
+	},
+]

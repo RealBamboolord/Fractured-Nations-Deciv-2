@@ -1,0 +1,8 @@
+[
+	{
+		"name": "Mountaineer II",
+		"uniques": [
+            "[This Unit] heals [30] HP <upon ending a turn in a [Mountain] tile>"
+		],
+	},
+]

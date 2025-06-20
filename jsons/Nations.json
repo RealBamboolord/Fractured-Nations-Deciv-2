@@ -1,0 +1,38 @@
+[
+	{ 
+		"name": "Geneva Union",
+		"leaderName": "Gunther Mayer",
+		"adjective": ["austrian"],
+    		"startBias": ["Mountain"],
+		"preferredVictoryType": "Diplomatic",
+
+		"startIntroPart1": "As a peaceful nation, we persisted through the big war. Even though we remained neutral, we had to face insurgencies, nuclear fallout and territorists. We lost a lot of land, people and resources. Now that the fallout is mostly overcome and most of Europe emerges again after the Chaos, it is your job to lead this fractured nation and restore it to peace and prosperity once more",
+		"startIntroPart2": "",
+
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+
+		"neutralHello": "",
+		"hateHello": "",
+
+		"tradeRequest": "",
+
+        "outerColor": [234,0,0],
+        "innerColor": [255,255,255],
+		"favoredReligion": "Liberty", // for now
+		"uniqueName": "Citizens of the Alps",
+		"uniques": [
+				"Land units may cross [Mountain] tiles after the first [Great Farmer] is earned",
+				"Free [Great Farmer] appears <upon discovering [Botany] technology>",
+				"[+1 Happiness, -1 Science] [in all cities]",
+				"Starts with [Writing]",
+				"Starts with [Redomestication]",
+				"Starts with [Mountain Exploration]",
+				"Starts with [Constitution] adopted",
+],
+		"cities": ["Zürich","Innsbruck", "Bern","Bregenz","Winterthur","Kitzbühel","Lucerne","New Geneve","Kufstein","Neu Basel","St Gallen","Soelden","Lienz","Vaduz","Zell am See"],
+        "civilopediaText": [{ "text": "" }],
+	},
+]

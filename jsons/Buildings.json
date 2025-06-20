@@ -1,0 +1,148 @@
+[	
+	//Geneva Union
+
+		{
+		"name": "Freedom Square",
+		"isWonder": true,
+		"uniqueTo": "Geneva Union",
+		"culture": 1,
+		"cost": 0,
+		"uniques": [
+			"Free [Gendarm] appears",
+			"Gain a free [Food Store] [in this city]",
+			"[+1 Gold] per [2] social policies adopted",
+			"[Civilian] units gain the [Mountaineer II] promotion",
+			"Can only be built <in [Capital] cities>",
+			"Automatically built in all cities where it is buildable"
+		],
+		"quote": "",
+		"civilopediaText": [{ "text": "" }],
+	},
+	{
+		"name": "Volkszuflucht", //Maybe change name
+		"uniqueTo": "Geneva Union",
+    	"replaces": "Bomb Shelter",
+		"isNationalWonder": true,
+		"food": 2,
+		"production": 3,
+		"cityStrength": 8,
+		"cityHealth": 50,
+		"science": 3,
+		"gold": 3,
+		"culture": 1,
+		"cost": 1,
+		"uniques": ["Indicates the capital city"]
+	},
+	{
+		"name": "Union Embassy",
+		"uniqueTo": "Geneva Union",
+    	"replaces": "Congress",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+1 Culture] [in all cities]",
+			"[-10]% Unhappiness from [Population] [in all cities]",
+			"[+1] population in a random city <upon declaring friendship> <without [Friendship Cooldown]>",
+			"Provides [1] [Friendship Cooldown] <for [6] turns> <upon declaring friendship> <without [Friendship Cooldown]>"
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Council]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Volkskammer",
+		"uniqueTo": "Geneva Union",
+    	"replaces": "Council",
+		"cost": 50,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+15]% Production towards any buildings that already exist in the Capital",
+			"Empire enters a [1]-turn Golden Age <upon declaring a defensive pact>"
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Congress]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Restructure Society",
+		"uniqueTo": "Geneva Union",
+    	"replaces": "Search for Survivors",
+		"cost": 45,
+		"isNationalWonder": true,
+		"uniques": [
+			"Free [Civilian Convoy] appears",
+			"Free [Scout] appears",
+			"Free [Worker] appears"
+		],
+		"civilopediaText": [{ "text": "Get your people ready to once again venture beyond their known homes, retreats, shelters and enclaves" }],
+	
+	},
+	{
+		"name": "Chapel",
+		"uniqueTo": "Geneva Union",
+    	"replaces": "Shrine",
+		"faith": 1,
+		"cost": 40,
+		"requiredTech": "Secrets of the Past",
+		"uniques": ["[+1 Faith] from [Mountain] tiles [in this city]","[+1 Faith] from [Mountain Tunnel] tiles [in this city]","Only available <when religion is enabled>"]
+	},
+		{
+		"name": "Bauernhof",
+		"uniqueTo": "Geneva Union",
+    	"replaces": "Ranch",
+		"requiredNearbyImprovedResources": ["Cattle", "Goats", "Furs", "Hogs"],
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Food] from [Cattle] tiles [in this city]",
+			"[+1 Food] from [Goats] tiles [in this city]",
+			"[+1 Food] from [Furs] tiles [in this city]",
+			"[+1 Food] from [Hogs] tiles [in this city]",
+			"Creates a [Alm] improvement on a specific tile"
+		],
+		"requiredTech": "Redomestication"
+	},
+	{
+		"name": "Mountain Cabin",
+		"uniqueTo": "Geneva Union",
+    	"replaces": "Observatory",
+		"cost": 75,
+		"culture": 2,
+		"hurryCostModifier": 15,
+		"uniques": [
+			"[+2 Food] from [{non-[Natural Wonder]} {Mountain}] tiles [in this city] <hidden from users>",
+			"[+2 Food] from [Mountain Tunnel] tiles [in this city] <hidden from users>",
+			"[+2 Science] from [{non-[Natural Wonder]} {Mountain}] tiles [in this city] <after discovering [Ecotheory]> <hidden from users>",
+			"[+2 Science] from [Mountain Tunnel] tiles [in this city] <after discovering [Ecotheory]> <hidden from users>",
+			"Comment [+2 Food from Mountain tiles in this city (excluding Ancient Wonders), increasing by +2 Science after discovering Ecotheory]",
+			"Free [Bergwacht] appears",
+		],
+		"requiredTech": "Mountain Exploration"
+	},
+	{
+		"name": "Hydro Plant",
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Must be on [River]",
+			"Provides [2] [Power]",
+			"Only available <in cities with a [Library]>",
+			"Only available <in cities without a [Pumped-Storage Plant]>"
+		],
+		"requiredTech": "Steam Power"
+	},
+	{
+		"name": "Pumped-Storage Plant",
+		"uniqueTo": "Geneva Union",
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Comment [Must be next to a Mountain or Mountain Tunnel]",
+			"Provides [2] [Power]",
+			"Unavailable <in tiles not adjacent to [Mountain] tiles> <in tiles not adjacent to [Mountain Tunnel] tiles> <hidden from users>",
+			"Only available <in cities with a [Library]>",
+			"Only available <in cities without a [Hydro Plant]>"
+		],
+		"requiredTech": "Steam Power"
+	},
+]
